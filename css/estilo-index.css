@@ -1,0 +1,324 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+    /*/background-color: #401b7a;/*/
+    background-image: url("../imagens/fundo_principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+header{
+ position: fixed;
+ top: 0;
+ width: 100%;
+ height: 13%;   
+ background-image: url("../imagens/img_header.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ border-bottom: solid 3px rgb(102, 101, 126) 
+}
+
+header ul {
+    padding: 0;
+	margin-left: 2%;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:19px;
+	}
+
+header ul li {
+        display: inline;
+        }
+
+header ul li a {
+	background: rgb(59, 91, 150);
+	color: rgb(255, 255, 255);
+	border: 1px rgb(128, 87, 223) solid;
+    border-radius: 10px;
+	float: left;
+	padding: 7px 7px;
+	margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 2%;
+	text-decoration: none;
+	}
+
+header ul li a:hover {
+        background-image: url("../imagens/fundo_principal.jpg");
+        color: rgb(255, 255, 255);
+        border: rgb(52, 12, 85) 1px solid;
+        border-bottom: none;
+        text-decoration: none;
+        }
+
+
+img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 7px;
+    color: rgb(241, 217, 217);
+}
+
+
+
+.imagem-principal{
+    align-items: center;
+    
+}
+
+p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:20px;
+    line-height: 160%;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    background-color: rgb(162, 164, 247);
+    margin-top: 3%;
+    margin-bottom: 7%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:57px;
+    color: rgb(8, 8, 8);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 5px solid rgb(1, 48, 201);
+    border-radius: 8px;
+}
+
+h2{
+    color: rgb(223, 217, 217);
+    font-size: 39px;
+    font-family:Helvetica, Arial, sans-serif;
+    border: 2px solid rgb(28, 29, 34);
+    border-radius: 12px;
+    background-color: rgb(39, 61, 117);
+   
+    text-align: center;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+strong{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:30px;
+    color: rgb(236, 236, 236);
+    
+}
+
+.dados ul li{
+    color: white;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    margin-left: 18%;
+    text-align: justify;
+}
+
+.dados ul li:hover{
+    /*/ passas o mause pela tabela de dados /*/
+    text-align: justify;
+}
+
+section{
+    text-align: justify;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:17px;
+    color: rgb(255, 255, 255);
+    
+}
+
+/*/ Formulário: início /*/
+
+ .container{
+    height: 100%;
+    justify-content: space-around;
+    
+ }
+
+ .formulario{
+    background-image: url("../imagens/cosmo.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:local;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    height: 600px;
+    border: 3px solid rgb(1, 48, 201);
+    border-radius: 8px;
+    padding-top:  3%;
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+  
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    display:inline;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.field{
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(235, 233, 233);
+}
+
+.enviar{
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(235, 233, 233);
+}
+
+.enviar:hover{
+    background-color: rgb(20, 167, 20);
+    border: 1px solid rgb(20, 167, 20);
+}
+
+textarea{
+    height: 220px;
+    max-width: 95.6%;
+    max-height: 280px;
+    min-height: 80px;
+    min-width: 95.6%
+}
+
+.map{
+
+    float: right;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+/*/ Formulário: fim /*/
+
+footer{
+    clear: both;
+    background-image: url(../imagens/img_header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 15%;
+    padding-top: 3%;
+    bottom: 0;
+    text-align: center;
+    font-family:Helvetica, Arial, sans-serif;
+    justify-content: space-around;
+    display: flex;
+    border-top: solid 3px rgb(102, 101, 126) 
+    
+}
+
+.rod{
+    width: 40%;
+    margin: 20px;
+}
+
+.ico {
+    max-width: 1.5em;
+    transition: 0.5s all;
+    display: inline;
+    justify-content: space-around;
+    margin-left: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ico:hover {
+    font-size: 2em;
+    transition:linear 0.5s ;
+    display: inline;
+    position:relative;
+    vertical-align: middle;
+
+}
+
+.end{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 8%;
+    vertical-align: middle;
+}
+
+.end:hover{
+    transition:linear 0.5s ;
+   
+}
+
+.links{
+    text-decoration: none;
+    line-height: 150%;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.links ul{
+    list-style-type: none;
+ 
+}
+
+.links ul li a{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color: rgb(255, 213, 28);
+    font-style: italic;
+    text-decoration: underline;
+}
