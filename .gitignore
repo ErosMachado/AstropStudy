@@ -1,0 +1,40 @@
+# Logs e arquivos temporários do sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Cache do navegador
+*.cache
+
+# Dependências geradas por gerenciadores de pacotes
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos de build/minificados
+dist/
+build/
+*.min.js
+*.min.css
+
+# Configurações de ambiente local
+.env
+.env.local
+.env.*.local
+
+# Arquivos de debug
+*.bak
+*.swp
+*.orig
+
+# Outros exemplos de arquivos desnecessários
+coverage/
+*.map
+
