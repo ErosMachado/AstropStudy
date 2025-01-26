@@ -322,3 +322,87 @@ footer{
     font-style: italic;
     text-decoration: underline;
 }
+
+
+
+
+/* Ajustes gerais para telas pequenas */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ajustar o fundo para cobrir a tela */
+    }
+
+    header {
+        height: auto; /* Ajusta a altura do cabeçalho */
+        padding: 10px;
+    }
+
+    header ul {
+        font-size: 16px; /* Menor tamanho de fonte */
+        margin-left: 0; /* Remover margens desnecessárias */
+    }
+
+    header ul li {
+        display: block; /* Coloca os itens da lista em blocos para empilhar */
+        margin: 10px 0; /* Aumenta o espaçamento entre os itens */
+    }
+
+    img {
+        width: 100%; /* Faz as imagens ocuparem toda a largura */
+    }
+
+    p, h1, h2, strong {
+        margin: 10px; /* Ajusta margens para mais responsividade */
+        font-size: 18px; /* Ajuste no tamanho da fonte */
+    }
+
+    .formulario {
+        margin: 10px; /* Ajusta o formulário para telas menores */
+        height: auto; /* Ajusta a altura do formulário */
+    }
+
+    .field, .enviar {
+        font-size: 18px; /* Ajusta o tamanho das fontes dos campos */
+    }
+
+    footer {
+        height: auto; /* Ajusta a altura do footer */
+    }
+
+    .ico {
+        font-size: 1.2em; /* Reduz o tamanho dos ícones */
+    }
+
+    .map {
+        margin-left: 0; /* Ajusta a margem do mapa para dispositivos móveis */
+        float: none;
+    }
+
+    .rod {
+        width: 100%; /* Torna o rodapé mais flexível */
+    }
+}
+
+/* Ajustes para telas de tablets (entre 768px e 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: 15%; /* Ajusta o cabeçalho para telas de tablets */
+    }
+
+    img {
+        width: 80%; /* Ajusta a largura da imagem */
+    }
+
+    p, h1, h2 {
+        font-size: 20px; /* Ajusta o tamanho da fonte para leitura confortável */
+    }
+
+    .formulario {
+        margin-left: 5%; /* Ajusta a margem do formulário */
+        margin-right: 5%;
+    }
+
+    .ico {
+        font-size: 1.5em; /* Ajusta o tamanho dos ícones para tablets */
+    }
+}
