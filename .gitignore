@@ -4,6 +4,10 @@
 .DS_Store
 Thumbs.db
 
+.env
+config.php
+
+
 # Arquivos gerados pelo editor/IDE
 .vscode/
 .idea/
