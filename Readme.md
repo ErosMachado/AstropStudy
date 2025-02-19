@@ -1,4 +1,4 @@
-Esse é o meu primeiro projeto em HTML e CSS. Um site simples com as principais informações de cada planeta do sistema solar.
+Você já parou para pensar no que existe além daquilo que está na nossa atmosfera? Bem, quando falamos em Sistema Solar definitivamente não estamos falando sobre tudo o que ocorre no nosso Universo. Mas sim, uma pequena parte disso tudo, um recorte daquilo que gira ao redor do Sol, a nossa estrela. Junte-se a nós para entender um pouco mais sobre cada planeta que constitui tudo isso que chamamos de sistema-solar.
 
 Link: https://erosmachado.github.io/AstropStudy/ 
 
