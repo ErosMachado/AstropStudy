@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Configuração do e-mail
-    $to = "email@email.com"; // Seu e-mail
+    $to = "seuemail@example.com"; // Seu e-mail
     $subject = "Mensagem do formulário de contato";
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
